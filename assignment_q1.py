@@ -6,8 +6,7 @@ import os
 
 
 
-
-
+# 7 length, 3 width, red
 count = 0
 for k in range(12):
     count=0
@@ -24,7 +23,8 @@ for k in range(12):
                 p = pathlib.Path('/home/souvik/Desktop/DEEP_learning/assignment_1/7_3_%i_R'%(15*k)).stem
                 cv2.imwrite(os.path.join(p,'7_3_%i_R_%i.jpg'%((15*k),count)),a2)
                 count = count+1
-
+                
+# 7 length, 3 width, blue
 count = 0
 for k in range(12):
     count=0
@@ -41,7 +41,8 @@ for k in range(12):
                 p = pathlib.Path('/home/souvik/Desktop/DEEP_learning/assignment_1/7_3_%i_B'%(15*k)).stem
                 cv2.imwrite(os.path.join(p,'7_3_%i_B_%i.jpg'%((15*k),count)),a2)
                 count = count+1
-
+                
+# 15 length, 3 width, blue
 count = 0
 for k in range(12):
     count=0
@@ -59,7 +60,7 @@ for k in range(12):
                 cv2.imwrite(os.path.join(p,'15_3_%i_B_%i.jpg'%((15*k),count)),a2)
                 count = count+1
 
-
+# 15 length, 3 width, red
 count = 0
 for k in range(12):
     count=0
@@ -76,7 +77,8 @@ for k in range(12):
                 p = pathlib.Path('/home/souvik/Desktop/DEEP_learning/assignment_1/15_3_%i_R'%(15*k)).stem
                 cv2.imwrite(os.path.join(p,'15_3_%i_R_%i.jpg'%((15*k),count)),a2)
                 count = count+1
-
+                
+# 15 length, 1 width, red
 count = 0
 for k in range(12):
     count=0
@@ -92,7 +94,7 @@ for k in range(12):
                 cv2.imwrite(os.path.join(p,'15_1_%i_R_%i.jpg'%((15*k),count)),a2)
                 count = count+1
 
-
+# 15 length, 1 width, blue
 count = 0
 for k in range(12):
     count=0
@@ -108,7 +110,7 @@ for k in range(12):
                 cv2.imwrite(os.path.join(p,'15_1_%i_B_%i.jpg'%((15*k),count)),a2)
                 count = count+1
 
-
+# 7 length, 1 width, red
 count = 0
 for k in range(12):
     count=0
@@ -124,7 +126,7 @@ for k in range(12):
                 cv2.imwrite(os.path.join(p,'7_1_%i_R_%i.jpg'%((15*k),count)),a2)
                 count = count+1
 
-
+# 7 length, 1 width, blue
 count = 0
 for k in range(12):
     count=0
